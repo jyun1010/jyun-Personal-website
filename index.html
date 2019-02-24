@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vanessa Lin</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- --------------Navigation Bar----------------- -->
+  <div id="mySidenav" class="side_nav">
+    <ul class="nav_ul">
+    <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+    <br>
+    <li><a href="#page1">Home</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#page3">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  
+  <div id="main">
+  
+    <!-- -------------------Hamburger Bar--------------- -->
+    <span id="hamburger" onclick="openNav()">
+      <div class="hamIcon"></div>
+      <div class="hamIcon"></div>
+      <div class="hamIcon"></div>
+      <div id="hamChar">MENU</div>
+    </span>
+    
+    <!-- ----------------------Content------------------  -->
+    <div id="page1">
+      <section id="home" class="pageContainer">
+
+        <div class="black_Board">
+          <h1 class="titleHello">Hello</h1>
+          <br>
+          <h1 class="title_h1"><span style="color: #BEC23F;">I</span>'M 
+          <br>
+          <span style="color: #BEC23F;">V</span>anessa <span style="color: #BEC23F;">L</span>in.</h1>
+          <br>            
+         </div>
+      </section>
+    </div>
+   
+    <div id="page2">
+      <div id="about">
+          <div class="myphoto">
+            <img class="myphoto_img" src="images/SelfieCity_20190218144421_save.jpg" alt="">
+          </div>
+          <div class="me_info">
+            <h2 class="title_h2">About Me</h2>
+            <br>
+            <p>我叫林惠君，畢業於元智大學社會暨政策科學學系，
+            原為補習班行政，喜歡探究事務，負有責任心並且樂於與他人合作，善與他人溝通協調。
+            因緣際會接觸程式，覺得前端雖辛苦，但看到出來成功的結果會給自己很大的成就感，
+            從此喜歡上程式，雖然目前只會皮毛，但未來會繼續學習前端相關知識，努力充實自己的。
+            </p>
+          </div>    
+      </div>
+   </div>
+
+
+
+    <div id="page3">
+      <section class="wrapper" id="my_projects">
+        <h2 class="title_h2" >Projects</h2>
+        <div class="page3_projects">
+          <div class="project">
+            <p>使用技能 : HTML、CSS</p>
+            <a href="https://jyun1010.github.io/little_namrcard/" target="_blink">
+              <figure>
+                <figcaption class="cover transition">簡單名片</figcaption>
+                <img class="page3_img" src="images/封面截圖.png" alt="">
+              </figure>
+            </a>
+            <p>練習了如hover、position等標籤製作簡易的名片</p>
+          </div>
+
+          <div class="project">
+            <p>使用技能 : Pug、Sass</p>
+            <a href=" https://codepen.io/Okaybeok/pen/LgVWLr" target="_blink">
+            <figure>
+              <figcaption class="cover transition">天氣盒子</figcaption>
+              <img class="page3_img" src="images/天氣盒子封面截圖.png" alt="">
+            </figure>
+            </a>
+            <p>練習pug與Sass，也練習製作svg圖片，</p>
+          </div>
+
+          <div class="project">
+            <p>使用技能 : Pug、Sass</p>
+            <a href=" https://codepen.io/Okaybeok/pen/JedLMZ" target="_blink">
+              <figure>
+                <figcaption class="cover transition">伸縮自如的iphone</figcaption>
+                <img class="page3_img" src="images/伸縮哀鳳封面截圖.png" alt=""> 
+              </figure>
+            </a>
+            <p>練習pug與Sass、HTML、CSS、JavaScript、jQuery等</p>
+          </div>
+    
+          <div class="project">
+            <p>使用技能 : HTML、CSS、JavaScript、jQuery、RWD等</p>
+            <a href=" https://jyun1010.github.io/jyun_eatenjoy/" target="_blink">
+              <figure>
+                <figcaption class="cover transition">Eat Enjoy意享</figcaption>
+                <img class="page3_img" src="images/eatenjoy封面截圖.png" alt="">
+              </figure>
+            </a>
+            <p>此為期中小專題，練習實作有四頁面之網頁</p>
+          </div>
+
+          <div class="project">
+            <p>使用技能 : HTML、CSS、JavaScript、RWD等</p>
+            <a href="https://jyun1010.github.io/sweetTaste/" target="_blink">
+              <figure>
+                <figcaption class="cover transition">甜點電商</figcaption>
+                <img class="page3_img" src="images/六角學院-甜點店切版封面截圖.png" alt="">
+              </figure>
+            </a>
+            <p>參與六角學院舉辦的【網頁排版PK戰】甜點電商，練習切版等技巧</p>
+          </div>
+
+          
+        </div>
+      </section><!-- wrapper -->
+    </div>
+  
+    <div id="page4">
+      <section id="contact" class="page4Container">
+        <h2 class="title_h2">Contact </h2>
+        <br>
+        <p>You Can contact me by</p>
+        <br>
+        <div class="normal_contact">
+          <img class="contact_logo" src="images/phone-symbol-of-an-auricular-inside-a-circle.svg" alt="">
+          <p>0922-996-326</p>
+          <img class="contact_logo" src="images/closed-envelope-circle.svg" alt="">
+          <p>jyunfw@gmail.com</p>
+        </div>
+       
+      </section>
+    </div>
+    
+       <footer>
+        <p>© Copyright 2019 by Vanessa Lin. All Rights Reserved.</p>
+      </footer>
+
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.js"
+        integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        crossorigin="anonymous"></script>
+
+   
+
+
+      <script>
+        
+      // 測選單的開闔動態 JavaScript Nav Bar Effect
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "200px";
+                document.getElementById("main").style.marginLeft = "200px";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+                document.body.style.backgroundColor = "white";
+            }
+      </script>
+
+</body>
+</html>
