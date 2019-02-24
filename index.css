@@ -163,7 +163,7 @@
         
     }
     .me_info,.myphoto{
-        margin: 100px 50px;
+        margin: 100px 40px;
         color: rgb(12, 61, 83);
         font-size: 1.3rem;
     }
@@ -314,8 +314,12 @@
     /* -------- Media Queries ------------- */
   
     @media screen and (max-height: 450px) {
-        .side_nav {padding-top: 15px;}
-        .side_nav a {font-size: 18px;}
+        .side_nav {
+            padding-top: 15px;
+        }
+        .side_nav a {
+            font-size: 18px;
+        }
     }
   
  
@@ -362,7 +366,7 @@
         
         .me_info,.myphoto{
             width: 80%;
-            margin: 40px 50px;
+            margin: 40px 40px;
             
             font-size: 1.2rem;
         }
@@ -371,9 +375,7 @@
             align-items: center;
             
         }
-        .myphoto_img{
-            width: 300px;
-        }
+      
 
         #page3 {
         height: 100%;
