@@ -7,9 +7,10 @@
     <title>Vanessa Lin</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">    	
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+  </head>
 <body>
     <!-- --------------Navigation Bar----------------- -->
   <div id="mySidenav" class="side_nav">
@@ -51,9 +52,9 @@
     <div id="page2">
       <div id="about">
           <div class="myphoto">
-            <img class="myphoto_img" src="images/2.jpg" alt="">
+            <img class="myphoto_img wow slideInLeft" src="images/2.jpg" alt="">
           </div>
-          <div class="me_info">
+          <div class="me_info wow bounceInRight">
             <h2 class="title_h2">About Me</h2>
             <br>
             <p>我叫林惠君，畢業於元智大學社會暨政策科學學系，
@@ -61,6 +62,10 @@
             因緣際會接觸程式，覺得前端雖辛苦，但看到出來成功的結果會給自己很大的成就感，
             從此喜歡上程式，雖然目前只會皮毛，但未來會繼續學習前端相關知識，努力充實自己的。
             </p>
+            <a href="https://jyun1010.github.io/simple_resume/"> 
+              <img class="animated infinite flash" src="images/hand-finger-pointing-down.svg" alt="" width="20px" height="20px" >
+              <h3>我的自製個人簡單履歷</h3>
+            </a>
           </div>    
       </div>
    </div>
@@ -171,7 +176,7 @@
 
       <script>
         
-      // 測選單的開闔動態 JavaScript Nav Bar Effect
+      // 測選單的開闔動態 
             function openNav() {
                 document.getElementById("mySidenav").style.width = "200px";
                 document.getElementById("main").style.marginLeft = "200px";
@@ -183,6 +188,10 @@
                 document.getElementById("main").style.marginLeft= "0";
                 document.body.style.backgroundColor = "white";
             }
+
+
+
+            new WOW().init();
       </script>
 
 </body>

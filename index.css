@@ -18,7 +18,9 @@
         font-size: 35px;
         color: rgb(104, 101, 101);
     }
-    
+    .wow { 
+        visibility: hidden; 
+    }
   /* Hamburger Menu Icon Styles
   --------------------------------------------- */
   #hamburger {
@@ -166,6 +168,20 @@
         margin: 100px 40px;
         color: rgb(12, 61, 83);
         font-size: 1.3rem;
+    }
+    .me_info a{
+        text-decoration: none;
+        font-size: 1rem;
+        display: block;
+
+    }
+
+    .me_info a:visited{
+        color: rgb(12, 61, 83);
+    }
+    .me_info a:hover{
+        font-size: 1.4rem;
+        transition:  ease-in-out 0.4s ;
     }
     .myphoto{
         margin-left: 100px;
@@ -366,7 +382,7 @@
         
         .me_info,.myphoto{
             width: 80%;
-            margin: 40px 40px;
+            margin: 40px 70px;
             
             font-size: 1.2rem;
         }
@@ -375,6 +391,11 @@
             align-items: center;
             
         }
+        .myphoto_img{
+            width: 60%;
+            margin-left: 15%;
+        }
+        
       
 
         #page3 {
