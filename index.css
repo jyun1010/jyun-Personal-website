@@ -169,7 +169,7 @@
         color: rgb(12, 61, 83);
         font-size: 1.3rem;
     }
-    .me_info a{
+    .me_info>a{
         text-decoration: none;
         font-size: 1rem;
         display: block;
@@ -316,7 +316,7 @@
         .title_h1 {
         font-size: 30px;
         }
-
+        
 
 
     }
@@ -350,8 +350,23 @@
             width: 60%;
             margin-left: 15%;
         }
-        
-      
+        .page3_projects{
+            flex-direction: column;
+        }
+        .project{
+            width: 80%;
+            margin: 30px auto;
+    
+        }
+        .page3_img{
+            
+            height: 80%;
+            margin: 5px auto;
+        }
+        .me_info,.myphoto{
+            margin: 40px auto;
+            font-size: 1rem;
+        }
 
         
 
