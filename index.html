@@ -10,6 +10,12 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">    	
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  
+  
   </head>
 <body>
     <!-- --------------Navigation Bar----------------- -->
@@ -24,7 +30,7 @@
     </ul>
   </div>
   
-  <div id="main">
+  <!-- <div id="main"></div> -->
   
     <!-- -------------------Hamburger Bar--------------- -->
     <span id="hamburger" onclick="openNav()">
@@ -58,7 +64,7 @@
             <h2 class="title_h2">About Me</h2>
             <br>
             <p>我叫林惠君，畢業於元智大學社會暨政策科學學系，
-            原為補習班行政，喜歡探究事務，負有責任心並且樂於與他人合作，善與他人溝通協調。
+            原為補習班行政，我的個性喜歡探究事務，負有責任心並且樂於與他人合作，善與他人溝通協調。
             因緣際會接觸程式，覺得前端雖辛苦，但看到出來成功的結果會給自己很大的成就感，
             從此喜歡上程式，雖然目前只會皮毛，但未來會繼續學習前端相關知識，努力充實自己的。
             </p>
@@ -154,14 +160,14 @@
         
       // 測選單的開闔動態 
             function openNav() {
-                document.getElementById("mySidenav").style.width = "200px";
-                document.getElementById("main").style.marginLeft = "200px";
+                document.getElementById("mySidenav").style.width = "220px";
+                // document.getElementById("main").style.marginLeft = "200px";
                 document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
             }
 
             function closeNav() {
                 document.getElementById("mySidenav").style.width = "0";
-                document.getElementById("main").style.marginLeft= "0";
+                // document.getElementById("main").style.marginLeft= "0";
                 document.body.style.backgroundColor = "white";
             }
 
