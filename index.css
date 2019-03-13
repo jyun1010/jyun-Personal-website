@@ -21,8 +21,7 @@
     .wow { 
         visibility: hidden; 
     }
-  /* Hamburger Menu Icon Styles
-  --------------------------------------------- */
+  /*----------------- 漢堡選單的樣式 ---------------------------- */
   #hamburger {
     position: fixed;
     padding: 5px;
@@ -65,33 +64,32 @@
     color: #ffffff;
   }
   
-  /* Animated Side Navigation Styles
-  --------------------------------------------- */
-    .side_nav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 3;
-        top: 0;
-        left: 0;
-        background-color: #4d7777;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 80px;
-        
-    }
-    .side_nav a {
-        padding: 20px 8px 8px 20px;
-        text-decoration: none;
-        font-size: 26px;
-        line-height: 2rem;
-        color: #b8c2c2;
-        display: block;
-        transition: 0.3s;
-        text-align: left;
-        margin-left: 35px;
-        position: relative;
-    }
+  /* --------Nav樣式與動畫------------------------- */
+        .side_nav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 3;
+            top: 0;
+            left: 0;
+            background-color: #4d7777;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 80px;
+            
+        }
+        .side_nav a {
+            padding: 20px 8px 8px 20px;
+            text-decoration: none;
+            font-size: 26px;
+            line-height: 2rem;
+            color: #b8c2c2;
+            display: block;
+            transition: 0.3s;
+            text-align: left;
+            margin-left: 35px;
+            position: relative;
+        }
         .side_nav a:hover{
             color: #BEC23F;
 
@@ -108,19 +106,13 @@
         .side_nav a:hover:after {
             width: 100%;
             }
-
-        
-    .offcanvas a:focus{
-        color: #BEC23F;
-        
-    }
-    .side_nav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
+        .side_nav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
     
   /* Main Contents Styles
   --------------------------------------------- */
@@ -128,7 +120,7 @@
       transition: margin-left .5s;
   }
 
-  /* ----------------------------首頁 */
+  /* -------------------首頁------------- */
 
     #page1 {
         width: 100%;
@@ -150,8 +142,7 @@
         padding: 2.5em;
     }
 
-    /* ---------------關於我-----------------cx
-    */
+    /* ---------------關於我-----------------*/
 
     #page2 {
         width: 100%;
@@ -248,16 +239,20 @@
         margin: 0px auto;
         transition: 0.5s;
         opacity: 0;
+        
+        
     }
     .project_cover:hover{
         opacity: 1;
     }
     .project_cover_p{
+        width: 95%;
         color: #fff;
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translateX(-50%)translateY(-50%);
+        
     }
 /* -----------------------聯絡方式--------------- */
 
@@ -369,13 +364,25 @@
         }
         .myphoto{
             text-align: center;
-            
+            margin: 40px auto 20px auto;
         }
         .myphoto_img{
             width: 60%;
             margin: 0 auto;
 
         }
+        .me_info{
+            margin: 20px auto;
+            font-size: 1rem;
+            text-align: center;
+           
+        }
+        .me_info p{
+            line-height: 1.8rem;
+        }
+
+
+
         .page3_projects{
             flex-direction: column;
         }
@@ -388,18 +395,10 @@
             height: 80%;
             margin: 0px auto;
         }
-        .myphoto{
-            margin: 40px auto 20px auto;
-        }
-        .me_info{
-            margin: 20px auto;
-            font-size: 1rem;
-            text-align: center;
+        .project_cover_p:last-child{
            
         }
-        .me_info p{
-            line-height: 1.8rem;
-        }
+        
         
 
         .normal_contact{
