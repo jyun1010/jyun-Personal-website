@@ -4,7 +4,7 @@
     }
     body {
         font-family: 'Rubik','Noto Sans TC', sans-serif;
-        transition: background-color .5s;
+        transition:all 3s;
     }
     p {
         line-height: 2.5em;
@@ -21,6 +21,7 @@
     .wow { 
         visibility: hidden; 
     }
+  
   /*----------------- 漢堡選單的樣式 ---------------------------- */
   #hamburger {
     position: fixed;
@@ -37,11 +38,7 @@
     background-color: #434747;
     border-radius: 5px;
     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.5);
-    -webkit-transition: all 200ms;
-    -moz-transition: all 200ms;
     transition: all 200ms;
-    -webkit-transition-delay: 50ms;
-    -moz-transition-delay: 50ms;
     transition-delay: 50ms;
   }
   .hamIcon {
