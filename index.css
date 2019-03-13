@@ -65,60 +65,56 @@
   }
   
   /* --------Nav樣式與動畫------------------------- */
-        .side_nav {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 3;
-            top: 0;
-            left: 0;
-            background-color: #4d7777;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 80px;
-            
-        }
-        .side_nav a {
-            padding: 20px 8px 8px 20px;
-            text-decoration: none;
-            font-size: 26px;
-            line-height: 2rem;
-            color: #b8c2c2;
-            display: block;
-            transition: 0.3s;
-            text-align: left;
-            margin-left: 35px;
-            position: relative;
-        }
-        .side_nav a:hover{
-            color: #BEC23F;
+    .side_nav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        background-color: #4d7777;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 80px;
+        
+    }
+    .side_nav a {
+        padding: 20px 8px 8px 20px;
+        text-decoration: none;
+        font-size: 26px;
+        line-height: 2rem;
+        color: #b8c2c2;
+        display: block;
+        transition: 0.3s;
+        text-align: left;
+        margin-left: 35px;
+        position: relative;
+    }
+    .side_nav a:hover{
+        color: #BEC23F;
 
+    }
+    .side_nav a:after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 0%;
+        border-bottom: 2px solid #BEC23F;
+        transition: 0.4s;
+    }
+    .side_nav a:hover:after {
+        width: 100%;
         }
-        .side_nav a:after {
-            content: '';
-            position: absolute;
-            bottom: -2px;
-            left: 0;
-            width: 0%;
-            border-bottom: 2px solid #BEC23F;
-            transition: 0.4s;
-        }
-        .side_nav a:hover:after {
-            width: 100%;
-            }
-        .side_nav .closebtn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
-            margin-left: 50px;
-        }
+    .side_nav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        font-size: 36px;
+        
+    }
     
-  /* Main Contents Styles
-  --------------------------------------------- */
-  #main {
-      transition: margin-left .5s;
-  }
+  
 
   /* -------------------首頁------------- */
 
